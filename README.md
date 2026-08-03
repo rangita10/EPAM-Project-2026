@@ -25,4 +25,5 @@ It allows users to deposit and withdraw money, apply coupon rewards, view transa
 4. Open index.html in the browser preview.
 
 👩‍💻 Author
+
    **Rangita Shah**
