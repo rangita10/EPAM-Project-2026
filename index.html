@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Customer Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🏦 My Bank</h1>
+
+<div class="card">
+<h2>Customer Details</h2>
+
+<p><b>Name:</b> Rangita Shah</p>
+
+<p><b>Account No:</b> 01234567</p>
+
+<h2>Balance: ₹<span id="balance">5000</span></h2>
+
+</div>
+
+<div class="card">
+
+<h2>Deposit / Withdraw</h2>
+
+<input type="number" id="amount" placeholder="Enter Amount">
+
+<div class="buttons">
+
+<button onclick="deposit()">Deposit</button>
+
+<button onclick="withdraw()">Withdraw</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Apply Coupon</h2>
+
+<input type="text" id="coupon" placeholder="Enter Coupon Code">
+
+<button onclick="applyCoupon()">Apply Coupon</button>
+
+<p class="coupon-list">
+
+Available Coupons:<br>
+
+WELCOME100<br>
+
+SAVE200<br>
+
+BONUS500
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Transaction History</h2>
+
+<ul id="history"></ul>
+
+</div>
+
+<button class="reset" onclick="resetAccount()">
+
+Reset Account
+
+</button>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
